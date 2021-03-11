@@ -12,6 +12,8 @@ print(barr[0])
 barr[0] = 254
 print(barr[0])
 
+# Note: This is a bytes-object (which is read-only, unlike bytearrays which 
+# can be read from and written to.)
 barr2 = b'Hello world'
 
 barr3 = bytearray()
